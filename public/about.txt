@@ -1,0 +1,27 @@
+<h1 className="topic">NOSSA MISSÃO</h1>
+      <p className="text">
+        Proporcionar soluções financeiras personalizadas e acessíveis, por meio
+        de consultoria especializada e oferta de empréstimos consignados,
+        visando melhorar a qualidade de vida e promover a estabilidade
+        financeira de aposentados, pensionistas e funcionários públicos.
+      </p>
+      <h1 className="topic">NOSSA VISÃO</h1>
+      <p className="text">
+        Ser reconhecida como a empresa líder em consultoria financeira pessoal e
+        empréstimos consignados, sendo referência em qualidade, confiança e
+        excelência no atendimento aos nossos clientes.
+      </p>
+      <h1 className="topic">NOSSOS VALORES</h1>
+      <p className="text">
+        Ética: Agir com integridade, transparência e respeito em todas as
+        interações com clientes, colaboradores e parceiros. Orientação ao
+        cliente: Colocar as necessidades e interesses dos clientes em primeiro
+        lugar, oferecendo soluções financeiras personalizadas e adequadas às
+        suas condições. Excelência: Buscar constantemente a excelência em nossos
+        serviços, por meio da capacitação contínua de nossa equipe e da adoção
+        das melhores práticas do mercado. Confiança: Construir relações de
+        confiança com nossos clientes, baseadas na honestidade, cumprimento de
+        compromissos e sigilo das informações. Responsabilidade social:
+        Contribuir para o desenvolvimento da sociedade, promovendo a educação
+        financeira e apoiando iniciativas sociais relevantes.
+      </p>

@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+}
+
+.navElement {
+  padding: 0;
+  margin: 20px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+}
+
+#heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+#header {
+  margin: 170px 0px 200px 70px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+#about-frame {
+  height: 480px;
+  position: relative;
+  left: 300px;
+  margin-bottom: 300px;
+}
+
+#about {
+  margin: 0px auto 0px 150px;
+  height: 440px;
+  width: 550px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f6f6f6;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+#title {
+  font-family: "Montserrat", sans-serif;
+  color: #0e9c2d;
+}
+
+.text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  width: 85%;
+}
+
+.btn {
+  background-color: #000000;
+  border: none;
+  color: #fff;
+  margin: 2px;
+  padding: 10px 10px;
+  border-radius: 3px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.btn:active {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#img-container {
+  height: 480px;
+  object-fit: cover;
+  position: relative;
+  bottom: 530px;
+  left: 100px;
+  clip-path: inset(0 0 0 300px);
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.img-about {
+  position: relative;
+  height: 480px;
+  border-radius: 10px;
+  left: 300px;
+;
+
+.footer {
+  background-color: #223625;
+  color: #fff;
+  position: relative;
+  top: 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.icons {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
