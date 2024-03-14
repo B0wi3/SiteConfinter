@@ -120,22 +120,64 @@ body {
 }
 
 #contact {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+  bottom: 200px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 400px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.form-element {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+#email {
+  width: 392px;
+}
+
+#message {
+  min-width: 392px;
+  min-height: 100px;
+  max-width: 392px;
+  max-height: 2px;
+}
+
+#submit-form {
+  width: 60px;
+  position: relative;
+  left: 40%;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 5px;
   font-family: "Montserrat", sans-serif;
-  background-color: #f6f6f6;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 50px;
+  font-size: 13px;
+  padding: 3px;
+  font-weight: 500;
 }
 
 .footer {
   background-color: #000000;
   color: #fff;
   position: relative;
-  top: 200px;
+  top: 450px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
