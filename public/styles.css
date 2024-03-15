@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -27,33 +32,36 @@ body {
   justify-content: space-between;
   align-items: center;
   font-family: "Montserrat", sans-serif;
+  margin: 0px 50px -200px;
 }
 
 #header {
-  margin: 170px 0px 200px 70px;
   gap: 20px;
   display: flex;
   flex-direction: column;
   width: 500px;
 }
 
+#logo {
+  height: 300px;
+}
+
 #about-frame {
   height: 480px;
-  position: relative;
-  right: 50px;
-  margin-bottom: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #about {
-  height: 440px;
   width: 550px;
-  margin: 0 0 50px 615px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: "Montserrat", sans-serif;
   background-color: #f6f6f6;
-  padding: 20px;
+  padding: 40px;
+  gap: 40px;
   border-radius: 10px;
 }
 
@@ -68,6 +76,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Montserrat", sans-serif;
+  gap: 40px;
 }
 
 #title {
@@ -101,40 +110,16 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-#img-container {
-  height: 480px;
-  object-fit: cover;
-  position: relative;
-  bottom: 530px;
-  clip-path: inset(0 0 0 300px);
-  z-index: -1;
-  border-radius: 10px;
-}
-
-.img-about {
-  position: relative;
-  height: 480px;
-  border-radius: 10px;
-  left: 700px;
-}
-
-.contact-header {
-  position: relative;
-  z-index: 1;
-  bottom: 250px;
-  left: 817px;
-  font-family: "Montserrat", sans-serif;
-  display: inline-block;
-}
-
 #contact {
   font-family: "Montserrat", sans-serif;
   background-color: #fff;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
   bottom: 200px;
+  gap: 60px;
 }
 
 #form {
@@ -193,7 +178,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 100px;
+  height: 80px;
   width: 100%;
 }
 
@@ -206,31 +191,19 @@ body {
   margin-right: 50px;
 }
 
-@media screen and (max-width: 1366px) {
-  #about {
-    position: relative;
-    left: -170px;
-  }
-  .img-about {
-    left: 600px;
-  }
-  .contact-header {
-    left: 540px;
-  }
-}
-
 @media screen and (max-height: 1060px) {
   #header {
-    margin-top: 300px;
+    margin-top: 200px;
     margin-bottom: 400px;
   }
-  #about-frame {
-    margin-bottom: 420px;
+  #logo {
+    position: relative;
+    bottom: 100px;
   }
-  .contact-header {
-    bottom: 350px;
+  #about-frame {
+    margin-bottom: 200px;
   }
   #contact {
-    bottom: 250px;
+    bottom: 180px;
   }
 }
