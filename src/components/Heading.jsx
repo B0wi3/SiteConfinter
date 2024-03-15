@@ -13,12 +13,7 @@ function Heading() {
           mercado. Faça uma simulação e comprove.
         </p>
       </div>
-      <img
-        id="logo"
-        src="../../assets/logo_w.jpeg"
-        style={{ marginRight: "70px", height: "300px" }}
-        alt="logo"
-      />
+      <img id="logo" src="../../assets/logo_w.jpeg" alt="logo" />
     </div>
   );
 }
