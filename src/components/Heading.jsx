@@ -15,8 +15,8 @@ function Heading() {
       </div>
       <img
         id="logo"
-        src="https://http2.mlstatic.com/D_NQ_NP_995199-MLB49119914009_022022-O.webp"
-        style={{ marginRight: "70px", height: "245px" }}
+        src="../../assets/logo_w.jpeg"
+        style={{ marginRight: "70px", height: "300px" }}
         alt="logo"
       />
     </div>

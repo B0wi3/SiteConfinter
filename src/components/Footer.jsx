@@ -3,6 +3,7 @@ import React from "react";
 const customStyle = {
   height: "30px",
   width: "30px",
+  backgroundColor: "#000",
 };
 
 function Footer() {
@@ -11,12 +12,12 @@ function Footer() {
       <div className="icons">
         <img
           style={customStyle}
-          src="https://www.svgrepo.com/show/521711/instagram.svg"
+          src="https://www.svgrepo.com/show/343562/instagram-social-media-network-communication-interaction-connection.svg"
           alt="insta"
         />
         <img
           style={customStyle}
-          src="https://www.svgrepo.com/show/521923/whatsapp.svg"
+          src="https://www.svgrepo.com/show/158412/whatsapp.svg"
           alt="whats"
         />
       </div>
