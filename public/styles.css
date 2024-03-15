@@ -94,6 +94,7 @@ body {
 
 .btn:hover {
   background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
 }
 
 .btn:active {
@@ -178,6 +179,10 @@ body {
   font-size: 13px;
   padding: 3px;
   font-weight: 500;
+}
+
+#submit-form:hover {
+  cursor: pointer;
 }
 
 .footer {
