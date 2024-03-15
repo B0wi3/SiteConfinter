@@ -1,18 +1,9 @@
 import React from "react";
 
-const customStyle = {
-  position: "relative",
-  zIndex: "1",
-  bottom: "250px",
-  left: "378px",
-  fontFamily: "Montserrat, sans-serif",
-  display: "inline-block",
-};
-
 function Contact() {
   return (
     <div>
-      <h1 style={customStyle}>Fale com a gente</h1>
+      <h1 className="contact-header">Fale com a gente</h1>
       <div id="contact">
         <form id="form">
           <div className="form-row">
