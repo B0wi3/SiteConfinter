@@ -45,10 +45,9 @@ body {
 }
 
 #about {
-  margin: 0px auto 0px 150px;
   height: 440px;
   width: 550px;
-  margin-bottom: 50px;
+  margin: 0 0 50px 615px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -106,7 +105,6 @@ body {
   object-fit: cover;
   position: relative;
   bottom: 530px;
-  left: 0px;
   clip-path: inset(0 0 0 300px);
   z-index: -1;
   border-radius: 10px;
@@ -116,7 +114,16 @@ body {
   position: relative;
   height: 480px;
   border-radius: 10px;
-  left: 250px;
+  left: 700px;
+}
+
+.contact-header {
+  position: relative;
+  z-index: 1;
+  bottom: 250px;
+  left: 817px;
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
 }
 
 #contact {
@@ -192,4 +199,33 @@ body {
   display: flex;
   align-items: center;
   margin-right: 50px;
+}
+
+@media screen and (max-width: 1366px) {
+  #about {
+    position: relative;
+    left: -170px;
+  }
+  .img-about {
+    left: 600px;
+  }
+  .contact-header {
+    left: 540px;
+  }
+}
+
+@media screen and (max-height: 1060px) {
+  #header {
+    margin-top: 300px;
+    margin-bottom: 400px;
+  }
+  #about-frame {
+    margin-bottom: 420px;
+  }
+  .contact-header {
+    bottom: 350px;
+  }
+  #contact {
+    bottom: 250px;
+  }
 }
