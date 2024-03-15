@@ -204,10 +204,10 @@ body {
 @media screen and (max-width: 1366px) {
   #about {
     position: relative;
-    left: -170px;
+    left: -250px;
   }
   .img-about {
-    left: 600px;
+    left: 400px;
   }
   .contact-header {
     left: 540px;
