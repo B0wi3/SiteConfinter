@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import cardInfo from "../cardInfo";
+import cardInfo from "./cardInfo";
 
 function About() {
   const [currentCard, setCurrentCard] = useState("btn2");
-
+  
   function handleClick(btnKey) {
     setCurrentCard(btnKey);
   }
